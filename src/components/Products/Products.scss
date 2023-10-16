@@ -1,0 +1,352 @@
+#products-valley-solar-hybrid,
+#products-hybrid-solar-power,
+#products-GPON,
+#products-SPV,
+#products-smart-pole-overview,
+#products-technical-specification-of-mobile-tablet-charging-rack,
+#products-3Ph-phase-VFD-inverter {
+  width: 100vw;
+  height: auto;
+}
+.products-solar p {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(12px, 1vw, 16px);
+  font-weight: 500;
+  padding: 0 5vw;
+}
+
+.products-solar h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: clamp(22px, 4vw, 40px);
+  color: #28bbea;
+  text-decoration: underline 5px;
+  text-underline-offset: 7px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0 5vw;
+}
+.products-solar h3 {
+  text-align: left;
+  color: #28bbea;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 500;
+  padding: 0 5vw;
+}
+.products-solar h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(14px, 1.25vw, 20px);
+  font-weight: 600;
+  padding: 0 5vw;
+}
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+.products-solar {
+  @include flex(column);
+  margin-top: 15vh;
+  align-items: center;
+  padding: 20px 0 0 0;
+  gap: 30px;
+  .products-solar-title {
+    background-color: #28bbea;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: clamp(14px, 1.5vw, 16px);
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 25px;
+    padding: 5px 10px;
+  }
+  .products-solar-heading {
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+    font-size: clamp(28px, 6vw, 48px);
+    font-style: normal;
+    font-weight: 900;
+    line-height: 1;
+    width: 60vw;
+    text-align: center;
+    @media (max-width: 600px) {
+      width: 90vw;
+    }
+  }
+}
+#products-smart-pole-overview {
+  @include flex(column);
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  .products-smart-pole-overview-div {
+    @include flex(row);
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    gap: 50px;
+    @media (max-width: 1000px) {
+      width: 80vw;
+    }
+    @media (max-width: 750px) {
+      flex-direction: column;
+    }
+  }
+  .products-smart-pole-overview-content {
+    @include flex(column);
+    gap: 25px;
+    h3 {
+      margin: 0 0 0 3.5vw;
+      @media (max-width: 1000px) {
+        margin: 0 0 0 5vw;
+      }
+    }
+    .products-smart-pole-overview-content-div {
+      @include flex(row);
+      width: 100vw;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 2vw;
+      @media (max-width: 1000px) {
+        gap: 25px 0;
+      }
+      .products-smart-pole-overview-content-div-details {
+        @include flex(column);
+        width: 225px;
+        align-items: center;
+        gap: 10px;
+        padding: 0 5px;
+        justify-content: center;
+        h4 {
+          text-align: center;
+          padding: 0;
+        }
+        p {
+          text-align: center;
+          padding: 0;
+        }
+      }
+    }
+  }
+  .products-smart-pole-lastimg {
+    max-width: 900px;
+    @media (max-width: 1000px) {
+      width: 80vw;
+    }
+  }
+}
+#products-SPV {
+  @include flex(column);
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+  .products-SPV-img {
+    max-width: 550px;
+    @media (max-width: 1000px) {
+      width: 80vw;
+    }
+  }
+}
+#products-GPON {
+  @include flex(column);
+  margin: 50px;
+  align-items: center;
+  h3 {
+    margin: 30px 0 0 3.5vw;
+  }
+  .products-GPON-content {
+    width: 100vw;
+    margin-top: 25px;
+    @include flex(row);
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 1000px) {
+      flex-direction: column-reverse;
+      gap: 30px;
+    }
+    div {
+      width: 600px;
+      @include flex(column);
+      justify-content: flex-start;
+      @media (max-width: 1000px) {
+        width: 90vw;
+      }
+    }
+    img {
+      max-width: 550px;
+      @media (max-width: 1000px) {
+        width: 80vw;
+      }
+    }
+  }
+  h3 {
+    text-align: left;
+    padding: 0 0 25px 0;
+  }
+  .products-GPON-content-ul {
+    width: 90vw;
+    @include flex(row);
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 800px) {
+      flex-direction: column;
+      width: 90vw;
+      align-items: start;
+    }
+  }
+}
+
+#products-hybrid-solar-power {
+  @include flex(column);
+  .products-hybrid-solar-power-CarouselProvider {
+    height: 85vh;
+    @media (max-width: 1200px) {
+      height: 70vh;
+    }
+    @media (max-width: 1000px) {
+      height: 75vh;
+    }
+    .products-hybrid-solar-power-slider {
+      @include flex(row);
+      align-items: center;
+      justify-content: center;
+      padding: 50px 0;
+      div {
+        width: 600px;
+        @include flex(column);
+        align-items: center;
+        ul {
+          li {
+            font-family: "Raleway", sans-serif;
+            font-size: clamp(14px, 1.1vw, 16px);
+            font-weight: 500;
+          }
+        }
+        @media (max-width: 1000px) {
+          @include flex(column);
+          align-items: center;
+          width: 90vw;
+        }
+      }
+      img {
+        width: 600px;
+        @media (max-width: 1000px) {
+          width: 45vw;
+        }
+        @media (max-width: 700px) {
+          width: 75vw;
+        }
+      }
+      @media (max-width: 1000px) {
+        flex-direction: column-reverse;
+        width: 90vw;
+        justify-content: center;
+        height: 90vh;
+        margin: 0 auto;
+        @media (max-width: 700px) {
+          height: auto;
+        }
+      }
+    }
+  }
+}
+#products-valley-solar-hybrid {
+  @include flex(column);
+  gap: 25px;
+  @media (max-width: 750px) {
+    padding: 25px 0;
+  }
+  .products-valley-solar-hybrid-content {
+    @include flex(row);
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 750px) {
+      flex-direction: column;
+    }
+    div {
+      width: 600px;
+      @media (max-width: 750px) {
+        flex-direction: column;
+        align-items: center;
+        width: 80vw;
+      }
+    }
+    img {
+      width: 400px;
+      @media (max-width: 750px) {
+        width: 85vw;
+      }
+    }
+  }
+}
+#products-technical-specification-of-mobile-tablet-charging-rack {
+  @include flex(column);
+  gap: 25px;
+  .products-technical-specification-of-mobile-tablet-charging-rack-content {
+    @include flex(row);
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    @media (max-width: 1050px) {
+      flex-direction: column;
+    }
+    img {
+      width: 400px;
+      @media (max-width: 1050px) {
+        width: 85vw;
+      }
+    }
+    .products-technical-specification-of-mobile-tablet-charging-rack-content-points {
+      width: 700px;
+      @media (max-width: 1050px) {
+        width: 85vw;
+      }
+    }
+  }
+}
+#products-3Ph-phase-VFD-inverter {
+  @include flex(column);
+  align-items: center;
+  gap: 15px;
+  .products-3Ph-phase-VFD-inverter-div {
+    @include flex(row);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    @media (min-width: 1250px) {
+      gap: 50px;
+    }
+
+    p {
+      width: 600px;
+      @media (max-width: 1250px) {
+        width: 75vw;
+      }
+      @media (max-width: 650px) {
+        width: 90vw;
+      }
+    }
+    img {
+      width: 600px;
+      @media (max-width: 1250px) {
+        width: 75vw;
+      }
+      @media (max-width: 650px) {
+        width: 85vw;
+      }
+    }
+  }
+  img {
+    width: 600px;
+    @media (max-width: 1250px) {
+      width: 75vw;
+    }
+  }
+}

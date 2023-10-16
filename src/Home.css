@@ -1,0 +1,14 @@
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=Home.css.map */

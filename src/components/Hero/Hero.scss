@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+}
+#hero {
+  width: 100vw;
+  height: 100vh !important;
+  @media (min-width: 650px) {
+    background-image: url("../../../public/Assets/Images/hero/homegraphics_new.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+  @media (max-width: 650px) {
+    background-size: 100% 100%;
+    background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+    background-image: radial-gradient(
+        45% 48% at 45% 47%,
+        #2053bc 0%,
+        #073aff00 100%
+      ),
+      radial-gradient(113% 91% at 17% -2%, #1f489fff 1%, #ff000000 99%),
+      linear-gradient(153deg, #5077acff 1%, #ff000000 99%),
+      radial-gradient(218% 62% at -6% 74%, #2871edff 1%, #ff000000 99%),
+      radial-gradient(142% 91% at 111% 84%, #2b58c9ff 0%, #f8f2f2ff 100%);
+  }
+  .hero-gradientdiv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../../../public/Assets/Images/hero/herogradient.png");
+    .hero-content {
+      @include flex(column);
+      padding: 0 0 10vh 25vw;
+      justify-content: flex-end;
+      align-items: center;
+      height: 100vh;
+      z-index: 5;
+      @media (max-width: 750px) {
+        padding: 0 0 10vh 0;
+        width: 100vw;
+        background-image: url("../../../public/Assets/Images/hero/homegraphics_mobile.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center 20%;
+      }
+      .hero-title {
+        color: #6fffff;
+        text-align: center;
+        font-family: "Bai Jamjuree", sans-serif;
+        font-size: clamp(16px, 4vw, 34px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.2;
+        text-transform: uppercase;
+      }
+      .hero-heading {
+        color: #6fffff;
+        text-align: center;
+        font-family: "Space Grotesk", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        font-size: clamp(26px, 6vw, 96px);
+      }
+
+      .hero-description {
+        color: #fff;
+        text-align: center;
+        font-family: "Inter", sans-serif;
+        font-size: clamp(16px, 3vw, 24px);
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        width: 60vw;
+        @media (max-width: 750px) {
+          width: 90vw;
+        }
+      }
+      .hero-contact-button {
+        outline: none;
+        border: none !important;
+        width: 150px;
+        height: 40px;
+        background: #28bbea !important;
+        font-family: "Montserrat", sans-serif;
+        font-size: clamp(12px, 1.75vw, 14px);
+        text-decoration: none !important;
+      }
+    }
+  }
+}
+
+.herogradient {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.herobgimg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}

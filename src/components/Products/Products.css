@@ -1,0 +1,438 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+#products-valley-solar-hybrid,
+#products-hybrid-solar-power,
+#products-GPON,
+#products-SPV,
+#products-smart-pole-overview,
+#products-technical-specification-of-mobile-tablet-charging-rack,
+#products-3Ph-phase-VFD-inverter {
+  width: 100vw;
+  height: auto;
+}
+
+.products-solar p {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(12px, 1vw, 16px);
+  font-weight: 500;
+  padding: 0 5vw;
+}
+
+.products-solar h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: clamp(22px, 4vw, 40px);
+  color: #28bbea;
+  -webkit-text-decoration: underline 5px;
+          text-decoration: underline 5px;
+  text-underline-offset: 7px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0 5vw;
+}
+
+.products-solar h3 {
+  text-align: left;
+  color: #28bbea;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(20px, 2.5vw, 28px);
+  font-weight: 500;
+  padding: 0 5vw;
+}
+
+.products-solar h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(14px, 1.25vw, 20px);
+  font-weight: 600;
+  padding: 0 5vw;
+}
+
+.products-solar {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+  align-items: center;
+  padding: 20px 0 0 0;
+  gap: 30px;
+}
+.products-solar .products-solar-title {
+  background-color: #28bbea;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(14px, 1.5vw, 16px);
+  font-style: normal;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+.products-solar .products-solar-heading {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(28px, 6vw, 48px);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 1;
+  width: 60vw;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .products-solar .products-solar-heading {
+    width: 90vw;
+  }
+}
+
+#products-smart-pole-overview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+#products-smart-pole-overview .products-smart-pole-overview-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  gap: 50px;
+}
+@media (max-width: 1000px) {
+  #products-smart-pole-overview .products-smart-pole-overview-div {
+    width: 80vw;
+  }
+}
+@media (max-width: 750px) {
+  #products-smart-pole-overview .products-smart-pole-overview-div {
+    flex-direction: column;
+  }
+}
+#products-smart-pole-overview .products-smart-pole-overview-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#products-smart-pole-overview .products-smart-pole-overview-content h3 {
+  margin: 0 0 0 3.5vw;
+}
+@media (max-width: 1000px) {
+  #products-smart-pole-overview .products-smart-pole-overview-content h3 {
+    margin: 0 0 0 5vw;
+  }
+}
+#products-smart-pole-overview .products-smart-pole-overview-content .products-smart-pole-overview-content-div {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+@media (max-width: 1000px) {
+  #products-smart-pole-overview .products-smart-pole-overview-content .products-smart-pole-overview-content-div {
+    gap: 25px 0;
+  }
+}
+#products-smart-pole-overview .products-smart-pole-overview-content .products-smart-pole-overview-content-div .products-smart-pole-overview-content-div-details {
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  align-items: center;
+  gap: 10px;
+  padding: 0 5px;
+  justify-content: center;
+}
+#products-smart-pole-overview .products-smart-pole-overview-content .products-smart-pole-overview-content-div .products-smart-pole-overview-content-div-details h4 {
+  text-align: center;
+  padding: 0;
+}
+#products-smart-pole-overview .products-smart-pole-overview-content .products-smart-pole-overview-content-div .products-smart-pole-overview-content-div-details p {
+  text-align: center;
+  padding: 0;
+}
+#products-smart-pole-overview .products-smart-pole-lastimg {
+  max-width: 900px;
+}
+@media (max-width: 1000px) {
+  #products-smart-pole-overview .products-smart-pole-lastimg {
+    width: 80vw;
+  }
+}
+
+#products-SPV {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+}
+#products-SPV .products-SPV-img {
+  max-width: 550px;
+}
+@media (max-width: 1000px) {
+  #products-SPV .products-SPV-img {
+    width: 80vw;
+  }
+}
+
+#products-GPON {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+}
+#products-GPON h3 {
+  margin: 30px 0 0 3.5vw;
+}
+#products-GPON .products-GPON-content {
+  width: 100vw;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  #products-GPON .products-GPON-content {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+#products-GPON .products-GPON-content div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+@media (max-width: 1000px) {
+  #products-GPON .products-GPON-content div {
+    width: 90vw;
+  }
+}
+#products-GPON .products-GPON-content img {
+  max-width: 550px;
+}
+@media (max-width: 1000px) {
+  #products-GPON .products-GPON-content img {
+    width: 80vw;
+  }
+}
+#products-GPON h3 {
+  text-align: left;
+  padding: 0 0 25px 0;
+}
+#products-GPON .products-GPON-content-ul {
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  #products-GPON .products-GPON-content-ul {
+    flex-direction: column;
+    width: 90vw;
+    align-items: start;
+  }
+}
+
+#products-hybrid-solar-power {
+  display: flex;
+  flex-direction: column;
+}
+#products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider {
+  height: 85vh;
+}
+@media (max-width: 1200px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider {
+    height: 70vh;
+  }
+}
+@media (max-width: 1000px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider {
+    height: 75vh;
+  }
+}
+#products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+#products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider div ul li {
+  font-family: "Raleway", sans-serif;
+  font-size: clamp(14px, 1.1vw, 16px);
+  font-weight: 500;
+}
+@media (max-width: 1000px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+}
+#products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider img {
+  width: 600px;
+}
+@media (max-width: 1000px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider img {
+    width: 45vw;
+  }
+}
+@media (max-width: 700px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider img {
+    width: 75vw;
+  }
+}
+@media (max-width: 1000px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider {
+    flex-direction: column-reverse;
+    width: 90vw;
+    justify-content: center;
+    height: 90vh;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) and (max-width: 700px) {
+  #products-hybrid-solar-power .products-hybrid-solar-power-CarouselProvider .products-hybrid-solar-power-slider {
+    height: auto;
+  }
+}
+
+#products-valley-solar-hybrid {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+@media (max-width: 750px) {
+  #products-valley-solar-hybrid {
+    padding: 25px 0;
+  }
+}
+#products-valley-solar-hybrid .products-valley-solar-hybrid-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 750px) {
+  #products-valley-solar-hybrid .products-valley-solar-hybrid-content {
+    flex-direction: column;
+  }
+}
+#products-valley-solar-hybrid .products-valley-solar-hybrid-content div {
+  width: 600px;
+}
+@media (max-width: 750px) {
+  #products-valley-solar-hybrid .products-valley-solar-hybrid-content div {
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+}
+#products-valley-solar-hybrid .products-valley-solar-hybrid-content img {
+  width: 400px;
+}
+@media (max-width: 750px) {
+  #products-valley-solar-hybrid .products-valley-solar-hybrid-content img {
+    width: 85vw;
+  }
+}
+
+#products-technical-specification-of-mobile-tablet-charging-rack {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+@media (max-width: 1050px) {
+  #products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content {
+    flex-direction: column;
+  }
+}
+#products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content img {
+  width: 400px;
+}
+@media (max-width: 1050px) {
+  #products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content img {
+    width: 85vw;
+  }
+}
+#products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content .products-technical-specification-of-mobile-tablet-charging-rack-content-points {
+  width: 700px;
+}
+@media (max-width: 1050px) {
+  #products-technical-specification-of-mobile-tablet-charging-rack .products-technical-specification-of-mobile-tablet-charging-rack-content .products-technical-specification-of-mobile-tablet-charging-rack-content-points {
+    width: 85vw;
+  }
+}
+
+#products-3Ph-phase-VFD-inverter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+#products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 1250px) {
+  #products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div {
+    gap: 50px;
+  }
+}
+#products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div p {
+  width: 600px;
+}
+@media (max-width: 1250px) {
+  #products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div p {
+    width: 75vw;
+  }
+}
+@media (max-width: 650px) {
+  #products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div p {
+    width: 90vw;
+  }
+}
+#products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div img {
+  width: 600px;
+}
+@media (max-width: 1250px) {
+  #products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div img {
+    width: 75vw;
+  }
+}
+@media (max-width: 650px) {
+  #products-3Ph-phase-VFD-inverter .products-3Ph-phase-VFD-inverter-div img {
+    width: 85vw;
+  }
+}
+#products-3Ph-phase-VFD-inverter img {
+  width: 600px;
+}
+@media (max-width: 1250px) {
+  #products-3Ph-phase-VFD-inverter img {
+    width: 75vw;
+  }
+}/*# sourceMappingURL=Products.css.map */
